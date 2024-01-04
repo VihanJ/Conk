@@ -1,6 +1,8 @@
 extends Node2D
 
 @onready var HexGrid = preload("res://HexGrid.gd").new()
+@onready var HexTiles = $Hexes
+
 
 """
 onready var highlight = get_node("Highlight")
@@ -8,9 +10,19 @@ onready var area_coords = get_node("Highlight/AreaCoords")
 onready var hex_coords = get_node("Highlight/HexCoords")
 """
 
+var textures = {"desert":load("res://Assets/tiles/testdesert.png"), 
+				"forest":load("res://Assets/tiles/testforest.png"),
+				"plains":load("res://Assets/tiles/testfield.png"),
+				"pasture":load("res://Assets/tiles/testpasture.png"),
+				"quarry":load("res://Assets/tiles/testquarry.png"),
+				"mountain":load("res://Assets/tiles/testmountain.png"),
+				"sea":load("res://Assets/tiles/default.png")}
+
+
 func _ready():
 	HexGrid.hex_scale = Vector2(50, 50)
-	HexGrid.set_bounds( Vector2(-2,2), Vector2(2,2) )
+	
+	
 
 func _unhandled_input(event):
 	"""if 'position' in event:

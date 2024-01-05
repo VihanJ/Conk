@@ -2,25 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c7fgn2pu0q4j3"
-<<<<<<< HEAD
+uid="uid://blkf73c7441ov"
 path="res://.godot/imported/testforest1.png-4a239bfeca74462a1bde9b8cdf7ae9a2.ctex"
-=======
-path="res://.godot/imported/testforest1.png-29627c2e2f90d26e2f9e78c1aae7ee9b.ctex"
->>>>>>> 806e212580aa1cd0d74865b6367711b89147325c
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<< HEAD
 source_file="res://assets/tiles/testforest1.png"
 dest_files=["res://.godot/imported/testforest1.png-4a239bfeca74462a1bde9b8cdf7ae9a2.ctex"]
-=======
-source_file="res://Assets/tiles/testforest1.png"
-dest_files=["res://.godot/imported/testforest1.png-29627c2e2f90d26e2f9e78c1aae7ee9b.ctex"]
->>>>>>> 806e212580aa1cd0d74865b6367711b89147325c
 
 [params]
 

@@ -2,25 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://sdfox0pmgs4e"
-<<<<<<< HEAD
+uid="uid://c5qlgin7e14hi"
 path="res://.godot/imported/testpastureorig.png-cb16ac609c248b0b1763d1a17ebc3451.ctex"
-=======
-path="res://.godot/imported/testpastureorig.png-b5628c2f58d69ee23eeaac365efb73a5.ctex"
->>>>>>> 806e212580aa1cd0d74865b6367711b89147325c
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<< HEAD
 source_file="res://assets/tiles/origin/testpastureorig.png"
 dest_files=["res://.godot/imported/testpastureorig.png-cb16ac609c248b0b1763d1a17ebc3451.ctex"]
-=======
-source_file="res://Assets/tiles/origin/testpastureorig.png"
-dest_files=["res://.godot/imported/testpastureorig.png-b5628c2f58d69ee23eeaac365efb73a5.ctex"]
->>>>>>> 806e212580aa1cd0d74865b6367711b89147325c
 
 [params]
 

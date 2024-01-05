@@ -2,25 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://3sj8tudmv4q0"
-<<<<<<< HEAD
+uid="uid://bhjd1wnswm1ab"
 path="res://.godot/imported/testpasture1.png-950bb559655a2650987fc76a69f71df6.ctex"
-=======
-path="res://.godot/imported/testpasture1.png-ba925d27a6ac523a051db15ebd9c37c9.ctex"
->>>>>>> 806e212580aa1cd0d74865b6367711b89147325c
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<< HEAD
 source_file="res://assets/tiles/testpasture1.png"
 dest_files=["res://.godot/imported/testpasture1.png-950bb559655a2650987fc76a69f71df6.ctex"]
-=======
-source_file="res://Assets/tiles/testpasture1.png"
-dest_files=["res://.godot/imported/testpasture1.png-ba925d27a6ac523a051db15ebd9c37c9.ctex"]
->>>>>>> 806e212580aa1cd0d74865b6367711b89147325c
 
 [params]
 

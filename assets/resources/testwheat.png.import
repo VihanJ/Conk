@@ -2,25 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c3v3vyid6fkxv"
-<<<<<<< HEAD
+uid="uid://bt5ecr16e0m4e"
 path="res://.godot/imported/testwheat.png-a9d1bb21985fa97565f6c624642553ef.ctex"
-=======
-path="res://.godot/imported/testwheat.png-2f3c22cd6adcc0b824e2e4f98899417d.ctex"
->>>>>>> 806e212580aa1cd0d74865b6367711b89147325c
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<< HEAD
 source_file="res://assets/resources/testwheat.png"
 dest_files=["res://.godot/imported/testwheat.png-a9d1bb21985fa97565f6c624642553ef.ctex"]
-=======
-source_file="res://Assets/resources/testwheat.png"
-dest_files=["res://.godot/imported/testwheat.png-2f3c22cd6adcc0b824e2e4f98899417d.ctex"]
->>>>>>> 806e212580aa1cd0d74865b6367711b89147325c
 
 [params]
 

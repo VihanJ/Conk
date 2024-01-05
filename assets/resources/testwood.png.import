@@ -2,25 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cvdus212dxsv"
-<<<<<<< HEAD
+uid="uid://bswtl5b3vjamh"
 path="res://.godot/imported/testwood.png-4e0e00f8132294def6a38b06eb4eef37.ctex"
-=======
-path="res://.godot/imported/testwood.png-11f41d254c805b259c92dc735d7a6888.ctex"
->>>>>>> 806e212580aa1cd0d74865b6367711b89147325c
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<< HEAD
 source_file="res://assets/resources/testwood.png"
 dest_files=["res://.godot/imported/testwood.png-4e0e00f8132294def6a38b06eb4eef37.ctex"]
-=======
-source_file="res://Assets/resources/testwood.png"
-dest_files=["res://.godot/imported/testwood.png-11f41d254c805b259c92dc735d7a6888.ctex"]
->>>>>>> 806e212580aa1cd0d74865b6367711b89147325c
 
 [params]
 

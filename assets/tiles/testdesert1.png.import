@@ -2,25 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cr38ju32xjpxp"
-<<<<<<< HEAD
+uid="uid://v53xkvwrvbsa"
 path="res://.godot/imported/testdesert1.png-eba3cfd99f09d72a84d2cba6d311d842.ctex"
-=======
-path="res://.godot/imported/testdesert1.png-672df11dfe2e6293465f9e332868961c.ctex"
->>>>>>> 806e212580aa1cd0d74865b6367711b89147325c
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<< HEAD
 source_file="res://assets/tiles/testdesert1.png"
 dest_files=["res://.godot/imported/testdesert1.png-eba3cfd99f09d72a84d2cba6d311d842.ctex"]
-=======
-source_file="res://Assets/tiles/testdesert1.png"
-dest_files=["res://.godot/imported/testdesert1.png-672df11dfe2e6293465f9e332868961c.ctex"]
->>>>>>> 806e212580aa1cd0d74865b6367711b89147325c
 
 [params]
 

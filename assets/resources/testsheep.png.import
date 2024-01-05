@@ -2,25 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bfirehd8wr1de"
-<<<<<<< HEAD
+uid="uid://c04c1ovdetqho"
 path="res://.godot/imported/testsheep.png-3439a8a52626ded00c3e2f01a207dd3d.ctex"
-=======
-path="res://.godot/imported/testsheep.png-a791152a69578b136396f94427af9928.ctex"
->>>>>>> 806e212580aa1cd0d74865b6367711b89147325c
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<< HEAD
 source_file="res://assets/resources/testsheep.png"
 dest_files=["res://.godot/imported/testsheep.png-3439a8a52626ded00c3e2f01a207dd3d.ctex"]
-=======
-source_file="res://Assets/resources/testsheep.png"
-dest_files=["res://.godot/imported/testsheep.png-a791152a69578b136396f94427af9928.ctex"]
->>>>>>> 806e212580aa1cd0d74865b6367711b89147325c
 
 [params]
 

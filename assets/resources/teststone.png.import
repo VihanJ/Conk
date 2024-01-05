@@ -2,25 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b04dlwyxv32pi"
-<<<<<<< HEAD
+uid="uid://ub6rg6hd26kx"
 path="res://.godot/imported/teststone.png-b633d7a1b795bd9d557f31191b3238fe.ctex"
-=======
-path="res://.godot/imported/teststone.png-398823d48269446655ec14fd0f8a2e85.ctex"
->>>>>>> 806e212580aa1cd0d74865b6367711b89147325c
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<< HEAD
 source_file="res://assets/resources/teststone.png"
 dest_files=["res://.godot/imported/teststone.png-b633d7a1b795bd9d557f31191b3238fe.ctex"]
-=======
-source_file="res://Assets/resources/teststone.png"
-dest_files=["res://.godot/imported/teststone.png-398823d48269446655ec14fd0f8a2e85.ctex"]
->>>>>>> 806e212580aa1cd0d74865b6367711b89147325c
 
 [params]
 

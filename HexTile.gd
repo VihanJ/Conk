@@ -10,7 +10,7 @@ extends Node
 func _ready():
 	pass
 	
-func change_texture(texture):
+func changeTexture(texture):
 		tileTexture.texture = texture
 
 	

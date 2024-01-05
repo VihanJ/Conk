@@ -3,15 +3,24 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://crq0d1b0wyv5o"
+<<<<<<< HEAD
 path="res://.godot/imported/granitetoken.png-fbf2669f89b5d0566ae07dab95324da3.ctex"
+=======
+path="res://.godot/imported/granitetoken.png-4988f981e659cdf1c7ab9b38cb11cc39.ctex"
+>>>>>>> c44ba1078264c194744af81099e2a91c4f981501
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
+<<<<<<< HEAD
 source_file="res://assets/tiles/granitetoken.png"
 dest_files=["res://.godot/imported/granitetoken.png-fbf2669f89b5d0566ae07dab95324da3.ctex"]
+=======
+source_file="res://Assets/tiles/granitetoken.png"
+dest_files=["res://.godot/imported/granitetoken.png-4988f981e659cdf1c7ab9b38cb11cc39.ctex"]
+>>>>>>> c44ba1078264c194744af81099e2a91c4f981501
 
 [params]
 

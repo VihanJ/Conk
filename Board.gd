@@ -9,13 +9,13 @@ onready var highlight = get_node("Highlight")
 onready var area_coords = get_node("Highlight/AreaCoords")
 onready var hex_coords = get_node("Highlight/HexCoords")
 """
-var textures = {0:preload("res://Assets/tiles/testdesert1.png"), 
-				1:preload("res://Assets/tiles/testforest1.png"),
-				2:preload("res://Assets/tiles/testfield1.png"),
-				3:preload("res://Assets/tiles/testpasture1.png"),
-				4:preload("res://Assets/tiles/testquarry1.png"),
-				5:preload("res://Assets/tiles/testmountain1.png"),
-				6:preload("res://Assets/tiles/default.png")}
+var textures = {0:preload("res://assets/tiles/testdesert1.png"), 
+				1:preload("res://assets/tiles/testforest1.png"),
+				2:preload("res://assets/tiles/testfield1.png"),
+				3:preload("res://assets/tiles/testpasture1.png"),
+				4:preload("res://assets/tiles/testquarry1.png"),
+				5:preload("res://assets/tiles/testmountain1.png"),
+				6:preload("res://assets/tiles/default.png")}
 var textureNames = {0:"desert",1:"forest",2:"plains",3:"pasture",4:"quarry",5:"mountain",6:"empty",}
 
 
@@ -50,7 +50,7 @@ func createBoard(boardData):
 	var scale = 150	
 	var tileNum = 0
 	var tiles = HexTiles.get_children()
-	var img = load("res://Assets/tiles/default.png")
+	var img = load("res://assets/tiles/default.png")
 	for i in boardData.size():
 		for j in boardData[i].size():
 			var textureNum = boardData[i][j][0]

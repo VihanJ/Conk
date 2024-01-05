@@ -9,21 +9,27 @@ onready var highlight = get_node("Highlight")
 onready var area_coords = get_node("Highlight/AreaCoords")
 onready var hex_coords = get_node("Highlight/HexCoords")
 """
-
-var textures = {"desert":load("res://Assets/tiles/testdesert.png"), 
-				"forest":load("res://Assets/tiles/testforest.png"),
-				"plains":load("res://Assets/tiles/testfield.png"),
-				"pasture":load("res://Assets/tiles/testpasture.png"),
-				"quarry":load("res://Assets/tiles/testquarry.png"),
-				"mountain":load("res://Assets/tiles/testmountain.png"),
+var textures = {"desert":load("res://Assets/tiles/testdesert1.png"), 
+				"forest":load("res://Assets/tiles/testforest1.png"),
+				"plains":load("res://Assets/tiles/testfield1.png"),
+				"pasture":load("res://Assets/tiles/testpasture1.png"),
+				"quarry":load("res://Assets/tiles/testquarry1.png"),
+				"mountain":load("res://Assets/tiles/testmountain1.png"),
 				"sea":load("res://Assets/tiles/default.png")}
-
+				
 
 func _ready():
 	HexGrid.hex_scale = Vector2(50, 50)
+	var imgs = textures.values()
+	var size = imgs.size()
+	var i = 0
+	var pos = Vector2(0,0)
 	
-	
-
+	for N in HexTiles.get_children():
+		N.change_texture(imgs[i%size])
+		N.set_position(pos+Vector2(450*i,0))
+		i+=1
+			
 func _unhandled_input(event):
 	"""if 'position' in event:
 		var relative_pos = self.transform.affine_inverse() * event.position

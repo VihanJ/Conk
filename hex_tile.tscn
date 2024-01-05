@@ -1,9 +1,9 @@
 [gd_scene load_steps=6 format=3 uid="uid://r0ahiadwatmp"]
 
 [ext_resource type="Script" path="res://HexTile.gd" id="1_7avfu"]
-[ext_resource type="Texture2D" uid="uid://cnjuaxr5wiljj" path="res://Assets/tiles/default.png" id="2_hlsy6"]
+[ext_resource type="Texture2D" uid="uid://cnjuaxr5wiljj" path="res://assets/tiles/default.png" id="2_hlsy6"]
 [ext_resource type="Shader" uid="uid://dlnc6xibqj05n" path="res://Shaders/new_shader.tres" id="3_k78e0"]
-[ext_resource type="Texture2D" uid="uid://chvjoxdq04m0n" path="res://Assets/tiles/granitetoken.png" id="4_q8iac"]
+[ext_resource type="Texture2D" uid="uid://chvjoxdq04m0n" path="res://assets/tiles/granitetoken.png" id="4_q8iac"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_x7uyd"]
 shader = ExtResource("3_k78e0")

@@ -3,15 +3,24 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dkuyka0r6m6w8"
+<<<<<<< HEAD
 path="res://.godot/imported/testmountain1.png-e35e47623d7e221ab25fadfccf9e1e65.ctex"
+=======
+path="res://.godot/imported/testmountain1.png-f349b35dcbdc2d0f3e54a90ec0337c1e.ctex"
+>>>>>>> 806e212580aa1cd0d74865b6367711b89147325c
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
+<<<<<<< HEAD
 source_file="res://assets/tiles/testmountain1.png"
 dest_files=["res://.godot/imported/testmountain1.png-e35e47623d7e221ab25fadfccf9e1e65.ctex"]
+=======
+source_file="res://Assets/tiles/testmountain1.png"
+dest_files=["res://.godot/imported/testmountain1.png-f349b35dcbdc2d0f3e54a90ec0337c1e.ctex"]
+>>>>>>> 806e212580aa1cd0d74865b6367711b89147325c
 
 [params]
 

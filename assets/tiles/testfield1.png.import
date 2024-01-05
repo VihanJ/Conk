@@ -3,15 +3,24 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://diuswo4ctyl7"
+<<<<<<< HEAD
 path="res://.godot/imported/testfield1.png-2f4ad09e7c9204e44eb59a545dd56efb.ctex"
+=======
+path="res://.godot/imported/testfield1.png-82f045515b08446bb198bc44171b4a48.ctex"
+>>>>>>> 806e212580aa1cd0d74865b6367711b89147325c
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
+<<<<<<< HEAD
 source_file="res://assets/tiles/testfield1.png"
 dest_files=["res://.godot/imported/testfield1.png-2f4ad09e7c9204e44eb59a545dd56efb.ctex"]
+=======
+source_file="res://Assets/tiles/testfield1.png"
+dest_files=["res://.godot/imported/testfield1.png-82f045515b08446bb198bc44171b4a48.ctex"]
+>>>>>>> 806e212580aa1cd0d74865b6367711b89147325c
 
 [params]
 

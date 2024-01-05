@@ -3,15 +3,24 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://6u8ca7oasv1b"
+<<<<<<< HEAD
 path="res://.godot/imported/testbrick.png-676ced013a3cdc7b5a3dc007542ec7a2.ctex"
+=======
+path="res://.godot/imported/testbrick.png-84fe2b71240a42696507fe575ccc5bd7.ctex"
+>>>>>>> 806e212580aa1cd0d74865b6367711b89147325c
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
+<<<<<<< HEAD
 source_file="res://assets/resources/testbrick.png"
 dest_files=["res://.godot/imported/testbrick.png-676ced013a3cdc7b5a3dc007542ec7a2.ctex"]
+=======
+source_file="res://Assets/resources/testbrick.png"
+dest_files=["res://.godot/imported/testbrick.png-84fe2b71240a42696507fe575ccc5bd7.ctex"]
+>>>>>>> 806e212580aa1cd0d74865b6367711b89147325c
 
 [params]
 

@@ -1,8 +1,9 @@
-[gd_scene load_steps=5 format=3 uid="uid://r0ahiadwatmp"]
+[gd_scene load_steps=6 format=3 uid="uid://r0ahiadwatmp"]
 
 [ext_resource type="Script" path="res://HexTile.gd" id="1_7avfu"]
 [ext_resource type="Texture2D" uid="uid://7yodt8gsnt1p" path="res://Assets/tiles/default.png" id="2_hlsy6"]
 [ext_resource type="Shader" uid="uid://dlnc6xibqj05n" path="res://Shaders/new_shader.tres" id="3_k78e0"]
+[ext_resource type="Texture2D" uid="uid://crq0d1b0wyv5o" path="res://Assets/tiles/granitetoken.png" id="4_q8iac"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_x7uyd"]
 shader = ExtResource("3_k78e0")
@@ -12,9 +13,11 @@ script = ExtResource("1_7avfu")
 
 [node name="Background" type="TextureRect" parent="."]
 offset_left = 1.0
-offset_right = 424.0
-offset_bottom = 478.0
+offset_right = 103.0
+offset_bottom = 122.0
 texture = ExtResource("2_hlsy6")
+expand_mode = 1
+stretch_mode = 4
 
 [node name="Token" type="TextureRect" parent="Background"]
 material = SubResource("ShaderMaterial_x7uyd")
@@ -29,6 +32,7 @@ offset_left = -70.5
 offset_top = -83.0
 offset_right = 81.5
 offset_bottom = 71.0
+texture = ExtResource("4_q8iac")
 expand_mode = 1
 
 [node name="RichTextLabel" type="RichTextLabel" parent="Background/Token"]

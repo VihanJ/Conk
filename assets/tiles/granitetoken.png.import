@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://chri05qldyowt"
-path="res://.godot/imported/Screenshot 2024-01-04 at 2.32.32 AM.png-e8457f277071a2edf28e1b66454ad558.ctex"
+uid="uid://crq0d1b0wyv5o"
+path="res://.godot/imported/granitetoken.png-4988f981e659cdf1c7ab9b38cb11cc39.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/pieces/Screenshot 2024-01-04 at 2.32.32 AM.png"
-dest_files=["res://.godot/imported/Screenshot 2024-01-04 at 2.32.32 AM.png-e8457f277071a2edf28e1b66454ad558.ctex"]
+source_file="res://Assets/tiles/granitetoken.png"
+dest_files=["res://.godot/imported/granitetoken.png-4988f981e659cdf1c7ab9b38cb11cc39.ctex"]
 
 [params]
 

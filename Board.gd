@@ -51,7 +51,7 @@ func createBoard(boardData):
 		
 	var imgs = textures.values()
 
-	var scale = 100	
+	var scale = 50	
 	var tileNum =0
 	var tiles = HexTiles.get_children()
 	for i in boardData.size():
@@ -64,11 +64,11 @@ func createBoard(boardData):
 			var probabilityNum = boardData[i][j][1]
 			
 			tiles[tileNum].get_node("Background").texture = textures[(2*i+j)%6]
-			var diameter = tiles[tileNum].get_node("Background").texture.get_width()
-			var relativePos = Vector2(700,0)+ Vector2( (2*(i-2.5)+(j-2.5))*scale,(2*sin(deg_to_rad(60))*(j-2.5))*scale)
-			#t#iles[tileNum].
-			tiles[tileNum].set_position(Vector2(0,500)+relativePos  )
-			var relativeScale = 2.0*scale/diameter
+			var tileTexture = tiles[tileNum].get_node("Background").texture
+			var relativePos = Vector2( 2*(i-2)+(j-2),2*sin(deg_to_rad(60))*(j-2) ) * scale
+			tiles[tileNum].get_node("Background").set_position(Vector2(-tileTexture.get_width()/2,-tileTexture.get_height()/2))
+			tiles[tileNum].set_position(relativePos)
+			var relativeScale = 2.0*scale/tileTexture.get_width()
 			tiles[tileNum].set_scale(Vector2(relativeScale,relativeScale))
 			#tiles[tileNum].get_node("Background").get_node("Value").text = str(relativePos/scale)
 			tileNum+=1
@@ -79,8 +79,10 @@ func _ready():
 	createBoard(boardData) #- given 19 hexes, draws the board with appropriate shifts for each tile and texture such 
 	#a catan board is drawn - will probably make use of hex-grid. 
 	
-	HexGrid.hex_scale = Vector2(50, 50)
-	
+	var tileTexture  = testTile.get_node("Background").texture
+	testTile.get_node("Background").set_position(Vector2(-tileTexture.get_width()/2,-tileTexture.get_height()/2))
+	testTile.set_position(Vector2(500,500))
+	testTile.set_scale(Vector2(0.3,0.3))
 			
 func _unhandled_input(event):
 	"""if 'position' in event:

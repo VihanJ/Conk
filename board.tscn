@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://cfstn2hlepjhl"]
+[gd_scene load_steps=3 format=3 uid="uid://cfstn2hlepjhl"]
 
 [ext_resource type="Script" path="res://Board.gd" id="1_q3082"]
+[ext_resource type="PackedScene" uid="uid://r0ahiadwatmp" path="res://hex_tile.tscn" id="2_xrwn0"]
 
 [node name="Board" type="Node2D"]
 position = Vector2(-2, -2)
@@ -12,3 +13,5 @@ script = ExtResource("1_q3082")
 offset_right = 1925.0
 offset_bottom = 1091.0
 expand_mode = 3
+
+[node name="TestHexTile" parent="." instance=ExtResource("2_xrwn0")]

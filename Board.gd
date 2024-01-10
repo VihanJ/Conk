@@ -55,7 +55,10 @@ func createBoard(boardData):
 	var tileNum =0
 	var tiles = HexTiles.get_children()
 <<<<<<< HEAD
+<<<<<<< HEAD
 	var img = load("res://assets/tiles/default.png")
+=======
+>>>>>>> 02ac3e01a58ec81bed056d9375ec7d1fd5c0fc84
 =======
 >>>>>>> 02ac3e01a58ec81bed056d9375ec7d1fd5c0fc84
 	for i in boardData.size():
@@ -68,12 +71,15 @@ func createBoard(boardData):
 			var probabilityNum = boardData[i][j][1]
 			
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 			print(tiles[tileNum])
 			
 			tiles[tileNum].get_node("Background").texture = img
 			tiles[tileNum].set_position(Vector2(-250,900)+Vector2( (2*i+j)*scale, 2*j*sin(deg_to_rad(60))*scale)  )
 =======
+=======
+>>>>>>> 02ac3e01a58ec81bed056d9375ec7d1fd5c0fc84
 			tiles[tileNum].get_node("Background").texture = textures[(2*i+j)%6]
 			var tileTexture = tiles[tileNum].get_node("Background").texture
 			var relativePos = Vector2( 2*(i-2)+(j-2),2*sin(deg_to_rad(60))*(j-2) ) * scale
@@ -82,6 +88,9 @@ func createBoard(boardData):
 			var relativeScale = 2.0*scale/tileTexture.get_width()
 			tiles[tileNum].set_scale(Vector2(relativeScale,relativeScale))
 			#tiles[tileNum].get_node("Background").get_node("Value").text = str(relativePos/scale)
+<<<<<<< HEAD
+>>>>>>> 02ac3e01a58ec81bed056d9375ec7d1fd5c0fc84
+=======
 >>>>>>> 02ac3e01a58ec81bed056d9375ec7d1fd5c0fc84
 			tileNum+=1
 

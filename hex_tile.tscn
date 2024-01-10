@@ -13,6 +13,7 @@ script = ExtResource("1_7avfu")
 
 [node name="Background" type="TextureRect" parent="."]
 <<<<<<< HEAD
+<<<<<<< HEAD
 offset_left = 1.0
 offset_right = 103.0
 offset_bottom = 122.0
@@ -29,10 +30,15 @@ anchors_preset = -1
 layout_direction = 1
 anchors_preset = 8
 >>>>>>> 02ac3e01a58ec81bed056d9375ec7d1fd5c0fc84
+=======
+layout_direction = 1
+anchors_preset = 8
+>>>>>>> 02ac3e01a58ec81bed056d9375ec7d1fd5c0fc84
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
+<<<<<<< HEAD
 <<<<<<< HEAD
 offset_left = -98.3335
 offset_top = -102.0
@@ -41,12 +47,17 @@ offset_bottom = 123.0
 scale = Vector2(0.851112, 0.851112)
 texture = ExtResource("4_q8iac")
 =======
+=======
+>>>>>>> 02ac3e01a58ec81bed056d9375ec7d1fd5c0fc84
 offset_right = 460.0
 offset_bottom = 524.0
 grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("2_hlsy6")
 expand_mode = 1
+<<<<<<< HEAD
+>>>>>>> 02ac3e01a58ec81bed056d9375ec7d1fd5c0fc84
+=======
 >>>>>>> 02ac3e01a58ec81bed056d9375ec7d1fd5c0fc84
 stretch_mode = 5
 

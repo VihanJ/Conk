@@ -12,6 +12,7 @@ shader = ExtResource("3_k78e0")
 script = ExtResource("1_7avfu")
 
 [node name="Background" type="TextureRect" parent="."]
+<<<<<<< HEAD
 offset_left = 1.0
 offset_right = 103.0
 offset_bottom = 122.0
@@ -24,30 +25,59 @@ material = SubResource("ShaderMaterial_x7uyd")
 layout_direction = 2
 layout_mode = 1
 anchors_preset = -1
+=======
+layout_direction = 1
+anchors_preset = 8
+>>>>>>> 02ac3e01a58ec81bed056d9375ec7d1fd5c0fc84
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
+<<<<<<< HEAD
 offset_left = -98.3335
 offset_top = -102.0
 offset_right = 126.667
 offset_bottom = 123.0
 scale = Vector2(0.851112, 0.851112)
 texture = ExtResource("4_q8iac")
+=======
+offset_right = 460.0
+offset_bottom = 524.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_hlsy6")
+expand_mode = 1
+>>>>>>> 02ac3e01a58ec81bed056d9375ec7d1fd5c0fc84
 stretch_mode = 5
 
-[node name="RichTextLabel" type="RichTextLabel" parent="Background/Token"]
+[node name="Value" type="RichTextLabel" parent="Background"]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -36.0
-offset_top = -71.0
-offset_right = -7.0
-offset_bottom = -22.0
+offset_left = -86.0
+offset_top = -81.5
+offset_right = -28.0
+offset_bottom = -26.5
 grow_horizontal = 2
 grow_vertical = 2
 scale = Vector2(3, 3)
 bbcode_enabled = true
+
+[node name="Token" type="TextureRect" parent="Background"]
+material = SubResource("ShaderMaterial_x7uyd")
+layout_direction = 2
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -106.0
+offset_top = -110.0
+offset_right = 119.0
+offset_bottom = 115.0
+texture = ExtResource("4_q8iac")
+stretch_mode = 4

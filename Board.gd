@@ -2,6 +2,7 @@ extends Node2D
 
 @onready var HexGrid = preload("res://HexGrid.gd").new()
 @onready var HexTiles = $Hexes
+@onready var testTile = $TestHexTile
 
 
 """
@@ -32,6 +33,7 @@ func generateBoard():
 				boardData[i].append([-1,-1])
 			else:
 				boardData[i].append([(i+j)%5,5]) #tile index, probability value
+				
 			
 			j+=1
 		i+=1
@@ -44,13 +46,18 @@ func generateBoard():
 func createBoard(boardData):
 	var hexScene = load("res://hex_tile.tscn")
 	for i in 19:
-		HexTiles.add_child(hexScene.instantiate())
+		var tile = hexScene.instantiate()
+		HexTiles.add_child(tile)
+		
 	var imgs = textures.values()
 
-	var scale = 150	
-	var tileNum = 0
+	var scale = 50	
+	var tileNum =0
 	var tiles = HexTiles.get_children()
+<<<<<<< HEAD
 	var img = load("res://assets/tiles/default.png")
+=======
+>>>>>>> 02ac3e01a58ec81bed056d9375ec7d1fd5c0fc84
 	for i in boardData.size():
 		for j in boardData[i].size():
 			var textureNum = boardData[i][j][0]
@@ -60,11 +67,22 @@ func createBoard(boardData):
 			
 			var probabilityNum = boardData[i][j][1]
 			
+<<<<<<< HEAD
 
 			print(tiles[tileNum])
 			
 			tiles[tileNum].get_node("Background").texture = img
 			tiles[tileNum].set_position(Vector2(-250,900)+Vector2( (2*i+j)*scale, 2*j*sin(deg_to_rad(60))*scale)  )
+=======
+			tiles[tileNum].get_node("Background").texture = textures[(2*i+j)%6]
+			var tileTexture = tiles[tileNum].get_node("Background").texture
+			var relativePos = Vector2( 2*(i-2)+(j-2),2*sin(deg_to_rad(60))*(j-2) ) * scale
+			tiles[tileNum].get_node("Background").set_position(Vector2(-tileTexture.get_width()/2,-tileTexture.get_height()/2))
+			tiles[tileNum].set_position(relativePos)
+			var relativeScale = 2.0*scale/tileTexture.get_width()
+			tiles[tileNum].set_scale(Vector2(relativeScale,relativeScale))
+			#tiles[tileNum].get_node("Background").get_node("Value").text = str(relativePos/scale)
+>>>>>>> 02ac3e01a58ec81bed056d9375ec7d1fd5c0fc84
 			tileNum+=1
 
 func _ready():
@@ -73,8 +91,10 @@ func _ready():
 	createBoard(boardData) #- given 19 hexes, draws the board with appropriate shifts for each tile and texture such 
 	#a catan board is drawn - will probably make use of hex-grid. 
 	
-	HexGrid.hex_scale = Vector2(50, 50)
-	
+	var tileTexture  = testTile.get_node("Background").texture
+	testTile.get_node("Background").set_position(Vector2(-tileTexture.get_width()/2,-tileTexture.get_height()/2))
+	testTile.set_position(Vector2(500,500))
+	testTile.set_scale(Vector2(0.3,0.3))
 			
 func _unhandled_input(event):
 	"""if 'position' in event:

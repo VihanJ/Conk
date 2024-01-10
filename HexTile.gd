@@ -1,8 +1,13 @@
-extends Node
+extends Node2D
 
 @onready var tileTexture = $Background
+<<<<<<< HEAD
 #@onready var tokenTexture = $Background/Token
 #@onready var tokenValue = $Background/Token/RichTextLabel
+=======
+@onready var tokenTexture = $Background/Token
+@onready var tokenValue = $Background/Value
+>>>>>>> 02ac3e01a58ec81bed056d9375ec7d1fd5c0fc84
 
 
 
@@ -10,10 +15,11 @@ extends Node
 func _ready():
 	pass
 	
-func changeTexture(texture):
-		tileTexture.texture = texture
 
-	
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	pass
+
+
+func _draw():
+	draw_line(Vector2(0, 0), Vector2(20, 20), Color.GREEN, 1.0)

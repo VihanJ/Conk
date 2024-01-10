@@ -1,7 +1,9 @@
-[gd_resource type="VisualShader" load_steps=2 format=3 uid="uid://dlnc6xibqj05n"]
+[gd_resource type="VisualShader" load_steps=3 format=3 uid="uid://dlnc6xibqj05n"]
 
 [sub_resource type="VisualShaderNodeColorConstant" id="VisualShaderNodeColorConstant_g3kow"]
 constant = Color(0.842299, 0.870459, 0.968622, 0.231373)
+
+[sub_resource type="VisualShaderNodeFloatConstant" id="VisualShaderNodeFloatConstant_2u7hg"]
 
 [resource]
 code = "shader_type canvas_item;
@@ -15,8 +17,13 @@ void fragment() {
 	vec4 n_out2p0 = vec4(0.842299, 0.870459, 0.968622, 0.231373);
 
 
+// FloatConstant:4
+	float n_out4p0 = 0.000000;
+
+
 // Output:0
 	COLOR.rgb = vec3(n_out2p0.xyz);
+	COLOR.a = n_out4p0;
 
 
 }
@@ -26,4 +33,6 @@ flags/light_only = false
 nodes/fragment/0/position = Vector2(600, 160)
 nodes/fragment/2/node = SubResource("VisualShaderNodeColorConstant_g3kow")
 nodes/fragment/2/position = Vector2(-199.045, 537.105)
-nodes/fragment/connections = PackedInt32Array(2, 0, 0, 0)
+nodes/fragment/4/node = SubResource("VisualShaderNodeFloatConstant_2u7hg")
+nodes/fragment/4/position = Vector2(-100, 180)
+nodes/fragment/connections = PackedInt32Array(2, 0, 0, 0, 4, 0, 0, 1)

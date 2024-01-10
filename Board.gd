@@ -54,8 +54,6 @@ func createBoard(boardData):
 	var scale = 50	
 	var tileNum =0
 	var tiles = HexTiles.get_children()
-	var img = load("res://assets/tiles/default.png")
-
 	for i in boardData.size():
 		for j in boardData[i].size():
 			var textureNum = boardData[i][j][0]
@@ -64,11 +62,6 @@ func createBoard(boardData):
 				continue
 			
 			var probabilityNum = boardData[i][j][1]
-		
-			print(tiles[tileNum])
-			
-			tiles[tileNum].get_node("Background").texture = img
-			tiles[tileNum].set_position(Vector2(-250,900)+Vector2( (2*i+j)*scale, 2*j*sin(deg_to_rad(60))*scale)  )
 			
 			tiles[tileNum].get_node("Background").texture = textures[(2*i+j)%6]
 			var tileTexture = tiles[tileNum].get_node("Background").texture

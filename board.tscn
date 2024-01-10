@@ -1,23 +1,8 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-[gd_scene load_steps=3 format=3 uid="uid://cfstn2hlepjhl"]
+[gd_scene load_steps=4 format=3 uid="uid://cm4bp62kfp8t4"]
 
 [ext_resource type="Script" path="res://Board.gd" id="1_q3082"]
-[ext_resource type="Texture2D" uid="uid://ovpa10owlmvk" path="res://assets/tiles/sea.png" id="2_svren"]
-=======
-[gd_scene load_steps=4 format=3 uid="uid://cfstn2hlepjhl"]
-
-[ext_resource type="Script" path="res://Board.gd" id="1_q3082"]
-[ext_resource type="PackedScene" uid="uid://r0ahiadwatmp" path="res://hex_tile.tscn" id="2_xrwn0"]
-[ext_resource type="Texture2D" uid="uid://dbhmrpb478k06" path="res://Assets/tiles/sea.png" id="2_xs717"]
->>>>>>> 02ac3e01a58ec81bed056d9375ec7d1fd5c0fc84
-=======
-[gd_scene load_steps=4 format=3 uid="uid://cfstn2hlepjhl"]
-
-[ext_resource type="Script" path="res://Board.gd" id="1_q3082"]
-[ext_resource type="PackedScene" uid="uid://r0ahiadwatmp" path="res://hex_tile.tscn" id="2_xrwn0"]
-[ext_resource type="Texture2D" uid="uid://dbhmrpb478k06" path="res://Assets/tiles/sea.png" id="2_xs717"]
->>>>>>> 02ac3e01a58ec81bed056d9375ec7d1fd5c0fc84
+[ext_resource type="PackedScene" uid="uid://d23qw5ry015vr" path="res://hex_tile.tscn" id="2_xrwn0"]
+[ext_resource type="Texture2D" uid="uid://ovpa10owlmvk" path="res://Assets/tiles/sea.png" id="2_xs717"]
 
 [node name="Board" type="Node2D"]
 position = Vector2(-2, -2)
@@ -28,15 +13,7 @@ script = ExtResource("1_q3082")
 [node name="SeaBackground" type="TextureRect" parent="."]
 offset_right = 1925.0
 offset_bottom = 1091.0
-<<<<<<< HEAD
-<<<<<<< HEAD
-texture = ExtResource("2_svren")
-=======
 texture = ExtResource("2_xs717")
->>>>>>> 02ac3e01a58ec81bed056d9375ec7d1fd5c0fc84
-=======
-texture = ExtResource("2_xs717")
->>>>>>> 02ac3e01a58ec81bed056d9375ec7d1fd5c0fc84
 expand_mode = 3
 
 [node name="TestHexTile" parent="." instance=ExtResource("2_xrwn0")]

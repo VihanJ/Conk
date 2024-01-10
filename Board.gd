@@ -64,7 +64,7 @@ func createBoard(boardData):
 			print(tiles[tileNum])
 			
 			tiles[tileNum].get_node("Background").texture = img
-			tiles[tileNum].set_position(Vector2(-250,900)+Vector2( (2*i+j)*scale, 4*j*sin(60)*scale)  )
+			tiles[tileNum].set_position(Vector2(-250,900)+Vector2( (2*i+j)*scale, 2*j*sin(deg_to_rad(60))*scale)  )
 			tileNum+=1
 
 func _ready():

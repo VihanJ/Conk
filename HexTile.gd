@@ -1,8 +1,8 @@
 extends Node
 
 @onready var tileTexture = $Background
-@onready var tokenTexture = $Background/Token
-@onready var tokenValue = $Background/Token/RichTextLabel
+#@onready var tokenTexture = $Background/Token
+#@onready var tokenValue = $Background/Token/RichTextLabel
 
 
 

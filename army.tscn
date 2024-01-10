@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://dbew422uoac3r"]
+
+[ext_resource type="Texture2D" uid="uid://ders8mdjunmux" path="res://assets/pieces/example2.png" id="1_fw0dj"]
+
+[node name="Army" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 198.0
+offset_bottom = 427.0
+texture = ExtResource("1_fw0dj")
+stretch_mode = 1
+
+[node name="RichTextLabel" type="RichTextLabel" parent="TextureRect"]
+offset_left = 73.0
+offset_top = 408.0
+offset_right = 113.0
+offset_bottom = 448.0
+scale = Vector2(4.4, 4.4)
+text = "1"

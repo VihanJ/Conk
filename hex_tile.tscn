@@ -15,8 +15,8 @@ script = ExtResource("1_7avfu")
 offset_left = 1.0
 offset_right = 103.0
 offset_bottom = 122.0
+scale = Vector2(0.519999, 0.519999)
 texture = ExtResource("2_hlsy6")
-expand_mode = 1
 stretch_mode = 4
 
 [node name="Token" type="TextureRect" parent="Background"]
@@ -28,12 +28,13 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -70.5
-offset_top = -83.0
-offset_right = 81.5
-offset_bottom = 71.0
+offset_left = -98.3335
+offset_top = -102.0
+offset_right = 126.667
+offset_bottom = 123.0
+scale = Vector2(0.851112, 0.851112)
 texture = ExtResource("4_q8iac")
-expand_mode = 1
+stretch_mode = 5
 
 [node name="RichTextLabel" type="RichTextLabel" parent="Background/Token"]
 layout_mode = 1

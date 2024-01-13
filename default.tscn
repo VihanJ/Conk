@@ -7,7 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://bvsevxg3k76q7" path="res://assets/pieces/examplecannon2.png" id="5_y5knf"]
 [ext_resource type="Texture2D" uid="uid://dst48t43sqaou" path="res://assets/pieces/examplecavalry.png" id="6_05yrc"]
 [ext_resource type="Texture2D" uid="uid://ders8mdjunmux" path="res://assets/pieces/example2.png" id="7_h7042"]
-[ext_resource type="Texture2D" uid="uid://benf0fjortk0f" path="res://assets/pieces/settlement.png" id="8_l2sfk"]
+[ext_resource type="Texture2D" uid="uid://cq63sm4fycxp1" path="res://assets/pieces/settlement2d.png" id="8_r2i8d"]
 
 [node name="Default" type="Sprite2D"]
 position = Vector2(1308, 835)
@@ -67,7 +67,7 @@ scale = Vector2(15.6944, 15.6944)
 text = "10
 "
 
-[node name="Settlement" type="Sprite2D" parent="."]
-position = Vector2(240, 134)
-scale = Vector2(0.200005, 0.200005)
-texture = ExtResource("8_l2sfk")
+[node name="Settlement2d" type="Sprite2D" parent="."]
+position = Vector2(241, 116)
+scale = Vector2(0.24, 0.24)
+texture = ExtResource("8_r2i8d")

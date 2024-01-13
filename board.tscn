@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://Board.gd" id="1_q3082"]
 [ext_resource type="PackedScene" uid="uid://d23qw5ry015vr" path="res://hex_tile.tscn" id="2_xrwn0"]
-[ext_resource type="Texture2D" uid="uid://ovpa10owlmvk" path="res://Assets/tiles/sea.png" id="2_xs717"]
+[ext_resource type="Texture2D" uid="uid://ovpa10owlmvk" path="res://assets/tiles/sea.png" id="2_xs717"]
 
 [node name="Board" type="Node2D"]
 position = Vector2(-2, -2)

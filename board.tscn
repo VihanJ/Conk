@@ -17,3 +17,7 @@ texture = ExtResource("2_xs717")
 expand_mode = 3
 
 [node name="TestHexTile" parent="." instance=ExtResource("2_xrwn0")]
+
+[node name="TestHexTile2" parent="." instance=ExtResource("2_xrwn0")]
+
+[node name="Vertices" type="Node" parent="."]

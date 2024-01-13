@@ -51,7 +51,8 @@ func createBoard(boardData):
 		
 	var imgs = textures.values()
 
-	var scale = 50	
+	var scale = 100	
+	var angle = 0
 	var tileNum =0
 	var tiles = HexTiles.get_children()
 	for i in boardData.size():
@@ -67,7 +68,8 @@ func createBoard(boardData):
 			var tileTexture = tiles[tileNum].get_node("Background").texture
 			var relativePos = Vector2( 2*(i-2)+(j-2),2*sin(deg_to_rad(60))*(j-2) ) * scale
 			tiles[tileNum].get_node("Background").set_position(Vector2(-tileTexture.get_width()/2,-tileTexture.get_height()/2))
-			tiles[tileNum].set_position(relativePos)
+			tiles[tileNum].get_node("Background").set_rotation(deg_to_rad(angle))
+			tiles[tileNum].set_position(Vector2(get_viewport_rect().get_center()+relativePos.rotated(deg_to_rad(angle))))
 			var relativeScale = 2.0*scale/tileTexture.get_width()
 			tiles[tileNum].set_scale(Vector2(relativeScale,relativeScale))
 			#tiles[tileNum].get_node("Background").get_node("Value").text = str(relativePos/scale)
@@ -81,8 +83,7 @@ func _ready():
 	
 	var tileTexture  = testTile.get_node("Background").texture
 	testTile.get_node("Background").set_position(Vector2(-tileTexture.get_width()/2,-tileTexture.get_height()/2))
-	testTile.set_position(Vector2(500,500))
-	testTile.set_scale(Vector2(0.3,0.3))
+	
 			
 func _unhandled_input(event):
 	"""if 'position' in event:

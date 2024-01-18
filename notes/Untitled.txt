@@ -1,0 +1,10 @@
+army properties:
+functions:
+drawArmies - will be called each time after training troops, disbanding, and after battles
+mergeArmies 
+
+vars:
+localStrength
+globalStrength - may not be necessary for singular army node
+battleStrength - sum of garrison + localStrength
+garrison - every map junction is generated with zero garrison at board creation, number is increased from buildings built on a junction

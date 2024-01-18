@@ -154,7 +154,7 @@
 """
 extends Node
 
-var HexCell = preload("res://HexCell.gd")
+var HexCell = preload("res://scripts/HexCell.gd")
 # Duplicate these from HexCell for ease of access
 const DIR_N = Vector3(0, 1, -1)
 const DIR_NE = Vector3(1, 0, -1)

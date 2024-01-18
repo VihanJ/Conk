@@ -1,0 +1,62 @@
+[gd_scene load_steps=5 format=3 uid="uid://dbew422uoac3r"]
+
+[ext_resource type="Texture2D" uid="uid://ders8mdjunmux" path="res://assets/pieces/example2.png" id="1_fw0dj"]
+[ext_resource type="Script" path="res://scripts/army.gd" id="1_q7ic3"]
+[ext_resource type="Texture2D" uid="uid://bvsevxg3k76q7" path="res://assets/pieces/examplecannon2.png" id="2_1vgaa"]
+[ext_resource type="Texture2D" uid="uid://dst48t43sqaou" path="res://assets/pieces/examplecavalry.png" id="3_15exl"]
+
+[node name="Army" type="Node2D"]
+script = ExtResource("1_q7ic3")
+
+[node name="Infantry" type="TextureRect" parent="."]
+top_level = true
+offset_left = 128.0
+offset_right = 326.0
+offset_bottom = 427.0
+texture = ExtResource("1_fw0dj")
+stretch_mode = 3
+
+[node name="Artillery" type="TextureRect" parent="Infantry"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.646
+anchor_right = -0.646
+offset_left = -0.0919952
+offset_top = 136.0
+offset_right = 837.908
+offset_bottom = 582.0
+scale = Vector2(0.56, 0.56)
+texture = ExtResource("2_1vgaa")
+stretch_mode = 3
+
+[node name="Cavalry" type="TextureRect" parent="Infantry"]
+show_behind_parent = true
+layout_mode = 0
+offset_left = -96.0
+offset_top = 32.0
+offset_right = 317.0
+offset_bottom = 831.0
+scale = Vector2(0.44, 0.44)
+texture = ExtResource("3_15exl")
+stretch_mode = 3
+
+[node name="ArmyCount" type="RichTextLabel" parent="Infantry"]
+layout_mode = 0
+offset_top = 406.0
+offset_right = 42.0
+offset_bottom = 429.0
+scale = Vector2(4.4, 4.4)
+bbcode_enabled = true
+text = "temp"
+fit_content = true
+
+[node name="TextureButton" type="TextureButton" parent="."]
+offset_right = 472.0
+offset_bottom = 426.0
+toggle_mode = true
+action_mode = 0
+
+[connection signal="button_down" from="TextureButton" to="." method="_on_texture_button_button_down"]
+[connection signal="button_up" from="TextureButton" to="." method="_on_texture_button_button_up"]
+[connection signal="toggled" from="TextureButton" to="." method="_on_texture_button_toggled"]

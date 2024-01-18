@@ -1,6 +1,6 @@
 extends Node2D
 
-@onready var HexGrid = preload("res://HexGrid.gd").new()
+@onready var HexGrid = preload("res://scripts/HexGrid.gd").new()
 @onready var HexTiles = $Hexes
 @onready var testTile = $TestHexTile
 
@@ -44,7 +44,7 @@ func generateBoard():
 	return boardData
 
 func createBoard(boardData):
-	var hexScene = load("res://hex_tile.tscn")
+	var hexScene = load("res://scenes/hex_tile.tscn")
 	for i in 19:
 		var tile = hexScene.instantiate()
 		HexTiles.add_child(tile)

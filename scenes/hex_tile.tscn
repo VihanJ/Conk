@@ -1,6 +1,6 @@
 [gd_scene load_steps=6 format=3 uid="uid://d23qw5ry015vr"]
 
-[ext_resource type="Script" path="res://HexTile.gd" id="1_7avfu"]
+[ext_resource type="Script" path="res://scripts/HexTile.gd" id="1_7avfu"]
 [ext_resource type="Texture2D" uid="uid://cnjuaxr5wiljj" path="res://assets/tiles/default.png" id="2_hlsy6"]
 [ext_resource type="Shader" uid="uid://dlnc6xibqj05n" path="res://Shaders/new_shader.tres" id="3_k78e0"]
 [ext_resource type="Texture2D" uid="uid://chvjoxdq04m0n" path="res://assets/tiles/granitetoken.png" id="4_q8iac"]

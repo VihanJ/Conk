@@ -1,0 +1,212 @@
+[gd_scene load_steps=9 format=3 uid="uid://cm4bp62kfp8t4"]
+
+[ext_resource type="Script" path="res://scripts/Board.gd" id="1_q3082"]
+[ext_resource type="PackedScene" uid="uid://d23qw5ry015vr" path="res://scenes/hex_tile.tscn" id="2_xrwn0"]
+[ext_resource type="Texture2D" uid="uid://ovpa10owlmvk" path="res://assets/tiles/sea.png" id="2_xs717"]
+[ext_resource type="Texture2D" uid="uid://ub6rg6hd26kx" path="res://assets/resources/teststone.png" id="4_hh6vf"]
+[ext_resource type="Texture2D" uid="uid://cx124efnxoxn7" path="res://assets/resources/testbrick.png" id="5_bf07p"]
+[ext_resource type="Texture2D" uid="uid://bswtl5b3vjamh" path="res://assets/resources/testwood.png" id="6_ntvb4"]
+[ext_resource type="Texture2D" uid="uid://bt5ecr16e0m4e" path="res://assets/resources/testwheat.png" id="7_swofd"]
+[ext_resource type="Texture2D" uid="uid://c04c1ovdetqho" path="res://assets/resources/testsheep.png" id="8_ey8kx"]
+
+[node name="Board" type="Node2D"]
+position = Vector2(-2, -2)
+script = ExtResource("1_q3082")
+
+[node name="Hexes" type="Node" parent="."]
+
+[node name="SeaBackground" type="TextureRect" parent="."]
+offset_right = 1925.0
+offset_bottom = 1218.0
+texture = ExtResource("2_xs717")
+expand_mode = 3
+
+[node name="TestHexTile" parent="." instance=ExtResource("2_xrwn0")]
+
+[node name="TestHexTile2" parent="." instance=ExtResource("2_xrwn0")]
+
+[node name="Vertices" type="Node" parent="."]
+
+[node name="Right" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 1602.0
+offset_top = 2.0
+offset_right = 1925.0
+offset_bottom = 1026.0
+
+[node name="Button" type="Button" parent="Right"]
+layout_mode = 0
+offset_top = 128.0
+offset_right = 320.0
+offset_bottom = 192.0
+toggle_mode = true
+action_mode = 0
+text = "Construction
+"
+
+[node name="Button2" type="Button" parent="Right"]
+layout_mode = 0
+offset_top = 224.0
+offset_right = 320.0
+offset_bottom = 288.0
+toggle_mode = true
+action_mode = 0
+text = "Trade
+"
+
+[node name="Button3" type="Button" parent="Right"]
+layout_mode = 0
+offset_top = 320.0
+offset_right = 320.0
+offset_bottom = 384.0
+toggle_mode = true
+action_mode = 0
+text = "Military
+"
+
+[node name="Button4" type="Button" parent="Right"]
+layout_mode = 0
+offset_top = 32.0
+offset_right = 320.0
+offset_bottom = 96.0
+toggle_mode = true
+action_mode = 0
+text = "Stats
+"
+
+[node name="Bottom" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 322.0
+offset_bottom = 1090.0
+
+[node name="StoneCounter" type="TextureRect" parent="Bottom"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 1.117
+anchor_bottom = 1.117
+offset_left = 648.0
+offset_top = -159.53
+offset_right = 816.0
+offset_bottom = 72.4698
+grow_vertical = 0
+texture = ExtResource("4_hh6vf")
+expand_mode = 4
+stretch_mode = 4
+
+[node name="StoneLabel" type="RichTextLabel" parent="Bottom/StoneCounter"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -20.0
+offset_top = 40.0
+offset_right = 20.0
+offset_bottom = 72.0
+grow_horizontal = 2
+bbcode_enabled = true
+
+[node name="BrickCounter" type="TextureRect" parent="Bottom"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 1.117
+anchor_bottom = 1.117
+offset_left = 482.0
+offset_top = -159.53
+offset_right = 648.0
+offset_bottom = 72.4698
+grow_vertical = 0
+texture = ExtResource("5_bf07p")
+expand_mode = 1
+stretch_mode = 4
+
+[node name="BrickLabel" type="RichTextLabel" parent="Bottom/BrickCounter"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -21.0
+offset_top = 40.0
+offset_right = 19.0
+offset_bottom = 72.0
+grow_horizontal = 2
+bbcode_enabled = true
+
+[node name="WoodCounter" type="TextureRect" parent="Bottom"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 1.117
+anchor_bottom = 1.117
+offset_left = 322.0
+offset_top = -159.53
+offset_right = 488.0
+offset_bottom = 72.4698
+grow_vertical = 0
+texture = ExtResource("6_ntvb4")
+expand_mode = 1
+stretch_mode = 4
+
+[node name="WoodLabel" type="RichTextLabel" parent="Bottom/WoodCounter"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -20.0
+offset_top = 40.0
+offset_right = 20.0
+offset_bottom = 72.0
+grow_horizontal = 2
+bbcode_enabled = true
+
+[node name="WheatCounter" type="TextureRect" parent="Bottom"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 1.117
+anchor_bottom = 1.117
+offset_left = 162.0
+offset_top = -159.53
+offset_right = 328.0
+offset_bottom = 72.4698
+grow_vertical = 0
+texture = ExtResource("7_swofd")
+expand_mode = 1
+stretch_mode = 4
+
+[node name="WheatLabel" type="RichTextLabel" parent="Bottom/WheatCounter"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -21.0
+offset_top = 40.0
+offset_right = 19.0
+offset_bottom = 72.0
+grow_horizontal = 2
+bbcode_enabled = true
+
+[node name="SheepCounter" type="TextureRect" parent="Bottom"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 1.117
+anchor_bottom = 1.117
+offset_left = 2.0
+offset_top = -159.53
+offset_right = 168.0
+offset_bottom = 72.4698
+grow_vertical = 0
+texture = ExtResource("8_ey8kx")
+expand_mode = 1
+stretch_mode = 4
+
+[node name="SheepLabel" type="RichTextLabel" parent="Bottom/SheepCounter"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -20.0
+offset_top = 40.0
+offset_right = 20.0
+offset_bottom = 72.0
+grow_horizontal = 2
+bbcode_enabled = true

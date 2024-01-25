@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://scripts/Board.gd" id="1_q3082"]
 [ext_resource type="PackedScene" uid="uid://d23qw5ry015vr" path="res://scenes/hex_tile.tscn" id="2_xrwn0"]
-[ext_resource type="Texture2D" uid="uid://ovpa10owlmvk" path="res://assets/tiles/sea.png" id="2_xs717"]
+[ext_resource type="Texture2D" uid="uid://ovpa10owlmvk" path="res://assets/sea.png" id="2_xs717"]
 [ext_resource type="Texture2D" uid="uid://ub6rg6hd26kx" path="res://assets/resources/teststone.png" id="4_hh6vf"]
 [ext_resource type="Texture2D" uid="uid://cx124efnxoxn7" path="res://assets/resources/testbrick.png" id="5_bf07p"]
 [ext_resource type="Texture2D" uid="uid://bswtl5b3vjamh" path="res://assets/resources/testwood.png" id="6_ntvb4"]

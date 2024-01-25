@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dltj05fstqr3o"
-path="res://.godot/imported/citybutton.png-0019fa62319b38c7d18b2db949753f6f.ctex"
+uid="uid://ovpa10owlmvk"
+path="res://.godot/imported/sea.png-55be039a36cf7996fd4d640c6f95e0f4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/pieces/citybutton.png"
-dest_files=["res://.godot/imported/citybutton.png-0019fa62319b38c7d18b2db949753f6f.ctex"]
+source_file="res://assets/sea.png"
+dest_files=["res://.godot/imported/sea.png-55be039a36cf7996fd4d640c6f95e0f4.ctex"]
 
 [params]
 

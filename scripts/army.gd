@@ -7,7 +7,7 @@ extends Node2D
 func drawArmies(localStrength):
 	#displays army textures
 	$Infantry/ArmyCount.text = "[center]" + str(localStrength)
-	if localStrength >= 5 and localStrength < 10: #must be less retarded way to do this
+	if localStrength >= 5 and localStrength < 10: 
 		$Infantry/Cavalry.visible = true
 		$Infantry/Artillery.visible = false
 	elif localStrength >= 10:
@@ -32,7 +32,7 @@ func _ready():
 
 func _on_texture_button_toggled(toggled_on):
 	if toggled_on == true:
-		mergeArmies(9, 3)
+		mergeArmies(5, 5)
 	else:
 		mergeArmies(2,3)
 	print(str(toggled_on))

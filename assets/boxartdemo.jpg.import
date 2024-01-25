@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cqm3716olq1sj"
-path="res://.godot/imported/settlementbutton.png-d33d73e0e53100dfce179f0e81ca14db.ctex"
+uid="uid://bsmpll52f8oq3"
+path="res://.godot/imported/boxartdemo.jpg-008b5ffad9e4cbd5a95397cd3b6f3f19.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/pieces/settlementbutton.png"
-dest_files=["res://.godot/imported/settlementbutton.png-d33d73e0e53100dfce179f0e81ca14db.ctex"]
+source_file="res://assets/boxartdemo.jpg"
+dest_files=["res://.godot/imported/boxartdemo.jpg-008b5ffad9e4cbd5a95397cd3b6f3f19.ctex"]
 
 [params]
 

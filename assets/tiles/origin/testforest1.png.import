@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bfpcfhd131x1e"
-path="res://.godot/imported/testquarry1.png-8f5206dddd07f7a813e9116e4a0645da.ctex"
+uid="uid://blkf73c7441ov"
+path="res://.godot/imported/testforest1.png-bf69ff1d22712649413364fcd0c06688.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/tiles/testquarry1.png"
-dest_files=["res://.godot/imported/testquarry1.png-8f5206dddd07f7a813e9116e4a0645da.ctex"]
+source_file="res://assets/tiles/origin/testforest1.png"
+dest_files=["res://.godot/imported/testforest1.png-bf69ff1d22712649413364fcd0c06688.ctex"]
 
 [params]
 

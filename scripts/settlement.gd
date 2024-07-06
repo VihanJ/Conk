@@ -13,4 +13,7 @@ func garrisoncount(garrison):
 #	pass
 
 func _ready():
-	garrisoncount(2)
+	garrisoncount(4)
+	
+func upgrade():
+	pass

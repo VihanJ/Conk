@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dbhmrpb478k06"
-path="res://.godot/imported/sea.png-f64b98921ad2e0ab885c9307abaf9e66.ctex"
+uid="uid://v53xkvwrvbsa"
+path="res://.godot/imported/testdesert1.png-fea12e20cb6984082d9c1d99035460fe.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/tiles/sea.png"
-dest_files=["res://.godot/imported/sea.png-f64b98921ad2e0ab885c9307abaf9e66.ctex"]
+source_file="res://assets/tiles/origin/testdesert1.png"
+dest_files=["res://.godot/imported/testdesert1.png-fea12e20cb6984082d9c1d99035460fe.ctex"]
 
 [params]
 

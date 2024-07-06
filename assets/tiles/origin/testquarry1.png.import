@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dbhmrpb478k06"
-path="res://.godot/imported/sea.png-4afaa3a316487a2161f8cef6f85a0664.ctex"
+uid="uid://bfpcfhd131x1e"
+path="res://.godot/imported/testquarry1.png-c2bf7f553c4ab1e62cab6005dbf52aa5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/tiles/sea.png"
-dest_files=["res://.godot/imported/sea.png-4afaa3a316487a2161f8cef6f85a0664.ctex"]
+source_file="res://assets/tiles/origin/testquarry1.png"
+dest_files=["res://.godot/imported/testquarry1.png-c2bf7f553c4ab1e62cab6005dbf52aa5.ctex"]
 
 [params]
 

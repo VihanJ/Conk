@@ -9,7 +9,7 @@ script = ExtResource("1_prnn0")
 
 [node name="Background" type="TextureRect" parent="."]
 offset_right = 1920.0
-offset_bottom = 1280.0
+offset_bottom = 1080.0
 texture = ExtResource("2_tt3e0")
 
 [node name="RichTextLabel" type="RichTextLabel" parent="Background"]
@@ -19,9 +19,9 @@ anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
 offset_left = -352.0
-offset_top = 256.0
+offset_top = 229.0
 offset_right = 352.0
-offset_bottom = 384.0
+offset_bottom = 357.0
 grow_horizontal = 2
 theme_override_colors/default_color = Color(0.976471, 0.792157, 0, 1)
 theme_override_fonts/normal_font = ExtResource("3_ulq0f")
@@ -32,9 +32,9 @@ text = "[center][font_size={100}]TEMP
 [node name="Start" type="Button" parent="."]
 top_level = true
 offset_left = 512.0
-offset_top = 448.0
+offset_top = 416.0
 offset_right = 1408.0
-offset_bottom = 576.0
+offset_bottom = 512.0
 theme_override_colors/font_color = Color(0.976471, 0.792157, 0, 1)
 theme_override_fonts/font = ExtResource("3_ulq0f")
 theme_override_font_sizes/font_size = 50
@@ -44,20 +44,20 @@ text = "START"
 [node name="Options" type="Button" parent="."]
 top_level = true
 offset_left = 512.0
-offset_top = 640.0
+offset_top = 576.0
 offset_right = 1408.0
-offset_bottom = 768.0
+offset_bottom = 672.0
 theme_override_colors/font_color = Color(0.976471, 0.792157, 0, 1)
 theme_override_fonts/font = ExtResource("3_ulq0f")
 theme_override_font_sizes/font_size = 50
 text = "OPTIONS"
 
-[node name="Wiki" type="Button" parent="."]
+[node name="Documentation" type="Button" parent="."]
 top_level = true
 offset_left = 512.0
-offset_top = 832.0
+offset_top = 736.0
 offset_right = 1408.0
-offset_bottom = 960.0
+offset_bottom = 832.0
 theme_override_colors/font_color = Color(0.976471, 0.792157, 0, 1)
 theme_override_fonts/font = ExtResource("3_ulq0f")
 theme_override_font_sizes/font_size = 50
@@ -66,9 +66,9 @@ text = "DOCUMENTATION"
 [node name="Quit" type="Button" parent="."]
 top_level = true
 offset_left = 512.0
-offset_top = 1024.0
+offset_top = 896.0
 offset_right = 1408.0
-offset_bottom = 1152.0
+offset_bottom = 992.0
 theme_override_colors/font_color = Color(0.976471, 0.792157, 0, 1)
 theme_override_fonts/font = ExtResource("3_ulq0f")
 theme_override_font_sizes/font_size = 50

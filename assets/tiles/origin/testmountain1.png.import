@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dvxuy2bgcxmtg"
-path="res://.godot/imported/desertoutlined.png-f103bf3526c6ab281ce953d495a8c490.ctex"
+uid="uid://bnrs4wpat0yu6"
+path="res://.godot/imported/testmountain1.png-2f3971cbbfbcada720defecdf312efbb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/desertoutlined.png"
-dest_files=["res://.godot/imported/desertoutlined.png-f103bf3526c6ab281ce953d495a8c490.ctex"]
+source_file="res://assets/tiles/origin/testmountain1.png"
+dest_files=["res://.godot/imported/testmountain1.png-2f3971cbbfbcada720defecdf312efbb.ctex"]
 
 [params]
 

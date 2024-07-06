@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bnrs4wpat0yu6"
-path="res://.godot/imported/testmountain1.png-e35e47623d7e221ab25fadfccf9e1e65.ctex"
+uid="uid://bhjd1wnswm1ab"
+path="res://.godot/imported/testpasture1.png-092a0d10ae9eec82823c04e5f51eab1d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/tiles/testmountain1.png"
-dest_files=["res://.godot/imported/testmountain1.png-e35e47623d7e221ab25fadfccf9e1e65.ctex"]
+source_file="res://assets/tiles/origin/testpasture1.png"
+dest_files=["res://.godot/imported/testpasture1.png-092a0d10ae9eec82823c04e5f51eab1d.ctex"]
 
 [params]
 

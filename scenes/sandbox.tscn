@@ -1,9 +1,9 @@
 [gd_scene load_steps=9 format=3 uid="uid://brmu0y2fw2eo7"]
 
-[ext_resource type="Texture2D" uid="uid://cnjuaxr5wiljj" path="res://assets/tiles/default.png" id="1_gfrro"]
-[ext_resource type="Texture2D" uid="uid://b70wvtb3culuk" path="res://assets/tiles/testfield1.png" id="2_xp44x"]
-[ext_resource type="Texture2D" uid="uid://blkf73c7441ov" path="res://assets/tiles/testforest1.png" id="3_8do3i"]
-[ext_resource type="Texture2D" uid="uid://bnrs4wpat0yu6" path="res://assets/tiles/testmountain1.png" id="4_sb06g"]
+[ext_resource type="Texture2D" uid="uid://cnjuaxr5wiljj" path="res://assets/tiles/origin/default.png" id="1_gfrro"]
+[ext_resource type="Texture2D" uid="uid://b70wvtb3culuk" path="res://assets/tiles/origin/testfield1.png" id="2_xp44x"]
+[ext_resource type="Texture2D" uid="uid://blkf73c7441ov" path="res://assets/tiles/origin/testforest1.png" id="3_8do3i"]
+[ext_resource type="Texture2D" uid="uid://bnrs4wpat0yu6" path="res://assets/tiles/origin/testmountain1.png" id="4_sb06g"]
 [ext_resource type="Texture2D" uid="uid://bvsevxg3k76q7" path="res://assets/pieces/examplecannon2.png" id="5_1pxnq"]
 [ext_resource type="Texture2D" uid="uid://dst48t43sqaou" path="res://assets/pieces/examplecavalry.png" id="6_nkq3v"]
 [ext_resource type="Texture2D" uid="uid://ders8mdjunmux" path="res://assets/pieces/example2.png" id="7_6wcea"]

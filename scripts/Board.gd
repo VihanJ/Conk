@@ -16,7 +16,7 @@ var textures = {0:preload("res://assets/tiles/desertoutlined.png"),
 				3:preload("res://assets/tiles/pastureoutlined.png"),
 				4:preload("res://assets/tiles/quarryoutlined.png"),
 				5:preload("res://assets/tiles/mountainoutlined.png"),
-				6:preload("res://Assets/tiles/default.png")}
+				6:preload("res://Assets/tiles/origin/default.png")}
 var textureNames = {0:"desert",1:"forest",2:"plains",3:"pasture",4:"quarry",5:"mountain",6:"empty",}
 
 
